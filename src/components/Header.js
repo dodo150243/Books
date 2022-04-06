@@ -3,12 +3,15 @@ import Band from './BandForm';
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Card, Col, CardImg, CardGroup } from "reactstrap";
 import { getMetadata } from 'firebase/storage';
+import BandForm from '../components/BandForm';
+
 
 // import '../css/templatemo-style.css';
 // import '../css/templatemo-misc.css';
 // import '../css/font-awesome.css';
 
 function Header() {
+   
     const [search, setPhoto] = useState("");
     //const [clientId, setClientId] = useState("z4MEN_-nG2OKrQiNRsHy39vww04sJGKcqXUX0COKcW8");
     const [result, setResult] = useState([]);
@@ -121,16 +124,10 @@ function Header() {
                 </div>
             </header>
 
-            {/* {submitted  ? (<>
-
-
-            </>
-            ): this.props.conditionB ? (<></>)
-      : (<></>)} */}
-
             {submitted ? (
                 <>
-               
+              
+              
                 </>
 
 
@@ -150,12 +147,6 @@ function Header() {
                                     </div>
                                 </Card>
                             </div>
-
-
-
-
-
-
                         )
                     })}
                 </div>

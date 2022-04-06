@@ -9,9 +9,9 @@ function BandForm() {
                             <div class="overlay-s"></div>
                             <div class="slider-caption">
                                 <div class="inner-content">
-                                    <h2>Discover new things from pictures.</h2>
-                                    <p>Something beautiful awaits you here, <a id="text-home" rel="nofollow" href="http://unsplash.com"><b class="orange">TK</b>PHOTO</a></p>
-                                    <a href="#" class="main-btn white">View Photos</a>
+                                    <h2>Discover something new from the book.</h2>
+                                    <p>New knowledge awaits you here, <a id="text-home" rel="nofollow" href="#"><b class="orange">TK</b>BOOKS</a></p>
+                                    <a href="#" class="main-btn white">View Books</a>
                                 </div>
                             </div>
                         </div>

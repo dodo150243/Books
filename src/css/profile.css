@@ -1,11 +1,10 @@
 .Profile{
     display: flex;
-    margin:20px 300px;
+    margin:20px 100px;
 }
 .Profile-img img{
-    width: 250px;
+    width: 300px;
    
-    border-radius: 50%;
 }
 .Profile-detail{
     text-align: left;
